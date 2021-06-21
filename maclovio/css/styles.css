@@ -1,0 +1,96 @@
+﻿@font-face {
+    font-family: 'Cinzel';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Cinzel-Bold'), url(../font/cinzel_bold.woff) format('woff');
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Nimbus Roman No9 L', 'Century Schoolbook L', serif;
+    font-size: 20px;
+    line-height: 1.45;
+    color: black;
+    background: white;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 35em;
+    padding: 2em 0 5em 0;
+    position: relative;
+}
+
+pre.cm-s-default, p {
+    margin-right: -30px;
+    padding-right: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel', Georgia, serif;
+    font-weight: 700;
+    margin: 1rem 0;
+    letter-spacing: 2px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 115%;
+}
+
+h3 {
+    font-size: 100%;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #467;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+blockquote {
+    margin: 0 0 0 3em;
+    padding: 0;
+    position: relative;
+}
+
+.indent {
+    margin: 0 0 0 1em;
+    padding: 0;
+    position: relative;
+}
+
+blockquote footer {
+    position: relative;
+    margin-left: 1em;
+}
+
+p + footer {
+    margin-top: -.5em;
+}
+
+div.image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+}
+
+.cinzel {
+    font-family: Cinzel;
+}
+
+.center {
+    text-align: center;
+}
