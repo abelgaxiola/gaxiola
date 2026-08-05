@@ -14,6 +14,9 @@
   <style>
     body { margin: 0; background: var(--color-bg); }
     @media (max-width: 680px) {
+      .gx-menu-btn { display: flex !important; }
+      .gx-links { display: none !important; width: 100%; flex-direction: column; align-items: flex-start; gap: 14px !important; padding-top: 12px; border-top: 1px solid var(--color-divider); }
+      #gx-menu-toggle:checked ~ .gx-links { display: flex !important; }
       main { padding: 0 20px 48px !important; }
       main h1 { font-size: 34px !important; }
       .gx-grid2 { grid-template-columns: 1fr !important; }
@@ -25,11 +28,16 @@
 <div style="min-height:100vh">
   <nav class="nav" style="max-width:1040px;margin:0 auto;flex-wrap:wrap;row-gap:10px">
     <a class="nav-brand" href="index.html" style="text-decoration:none;color:inherit;letter-spacing:0.08em">GAXIOLA</a>
+    <input type="checkbox" id="gx-menu-toggle" style="display:none">
+    <label for="gx-menu-toggle" class="gx-menu-btn" style="display:none;align-items:center;cursor:pointer;color:var(--color-text)" aria-label="Menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg></label>
+    <div class="gx-links" style="display:flex;align-items:center;gap:var(--space-4)">
     <a href="index.html">Home</a>
     <a href="origins.html">Origins &amp; History</a>
     <a href="people.html">Notable Bearers</a>
     <a href="heraldry.html">Heraldry</a>
     <a href="records.html" aria-current="page">Records &amp; Sources</a>
+    <a href="records-es.html" lang="es" style="letter-spacing:0.08em;color:var(--color-accent-700);border:1px solid var(--color-divider);border-radius:var(--radius-md);padding:3px 10px;font-size:12px">ES</a>
+    </div>
   </nav>
   <main style="max-width:880px;margin:0 auto;padding:0 32px 64px">
     <header style="padding:56px 0 32px;border-bottom:1px solid var(--color-divider)" data-screen-label="Records hero">

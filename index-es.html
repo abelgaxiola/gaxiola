@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/styles.css">
+  <script src="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/_ds_bundle.js"></script>
+  <script src="image-slot.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; background: var(--color-bg); }
+    @media (max-width: 680px) {
+      .gx-menu-btn { display: flex !important; }
+      .gx-links { display: none !important; width: 100%; flex-direction: column; align-items: flex-start; gap: 14px !important; padding-top: 12px; border-top: 1px solid var(--color-divider); }
+      #gx-menu-toggle:checked ~ .gx-links { display: flex !important; }
+      main { padding: 0 20px 48px !important; }
+      main h1 { font-size: 40px !important; }
+      .gx-grid2, .gx-split { grid-template-columns: 1fr !important; }
+      .gx-stats { grid-template-columns: 1fr 1fr !important; }
+      .gx-stats > div { border-right: 0 !important; }
+      .gx-stats > div:nth-child(-n+2) { border-bottom: 1px solid var(--color-divider); }
+      figure .plate { height: 240px !important; }
+    }
+    a { color: var(--color-accent-700); }
+    a:hover { color: var(--color-accent); }
+  </style>
+</helmet>
+<div style="min-height:100vh" lang="es">
+  <nav class="nav" style="max-width:1040px;margin:0 auto;flex-wrap:wrap;row-gap:10px">
+    <a class="nav-brand" href="index-es.html" style="text-decoration:none;color:inherit;letter-spacing:0.08em">GAXIOLA</a>
+    <input type="checkbox" id="gx-menu-toggle" style="display:none">
+    <label for="gx-menu-toggle" class="gx-menu-btn" style="display:none;align-items:center;cursor:pointer;color:var(--color-text)" aria-label="Menú"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg></label>
+    <div class="gx-links" style="display:flex;align-items:center;gap:var(--space-4)">
+    <a href="index-es.html" aria-current="page">Inicio</a>
+    <a href="origins-es.html">Origen e Historia</a>
+    <a href="people-es.html">Portadores Notables</a>
+    <a href="heraldry-es.html">Heráldica</a>
+    <a href="records-es.html">Registros y Fuentes</a>
+    <a href="index.html" lang="en" style="letter-spacing:0.08em;color:var(--color-accent-700);border:1px solid var(--color-divider);border-radius:var(--radius-md);padding:3px 10px;font-size:12px">EN</a>
+    </div>
+  </nav>
+  <main style="max-width:880px;margin:0 auto;padding:0 32px 64px">
+    <header style="text-align:center;padding:72px 0 40px;border-bottom:1px solid var(--color-divider)" data-screen-label="Portada">
+      <div style="font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:var(--color-accent);margin-bottom:20px;font-variant-numeric:tabular-nums">Historia Familiar · Compilación de Investigación</div>
+      <h1 style="font-size:64px;line-height:1.05;margin:0 0 18px;font-weight:400">El Apellido Gaxiola</h1>
+      <p style="font-style:italic;color:var(--color-neutral-600);max-width:34em;margin:0 auto;font-size:19px;line-height:1.6;text-wrap:pretty">Un nombre vasco del norte de España que echó raíces en Sinaloa y Sonora, y volvió a viajar al norte hacia el suroeste de Estados Unidos.</p>
+    </header>
+    <section class="gx-stats" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-bottom:1px solid var(--color-divider)">
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~22,000</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">portadores en el mundo</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~19,700</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">en México</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~2,700</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">en Estados Unidos</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">93,000+</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">registros indexados</div>
+      </div>
+    </section>
+    <section style="padding:48px 0 8px">
+      <p style="margin:0 0 16px;font-size:18px;line-height:1.75;text-align:justify;text-wrap:pretty"><span style="float:left;font-family:var(--font-heading);font-size:64px;line-height:0.8;padding:8px 12px 0 0;color:var(--color-accent)">G</span>axiola es un apellido poco común de origen vasco que se estableció firmemente en el noroeste de México durante la época colonial española. Hoy, la gran mayoría de quienes lo llevan viven en Sinaloa, Sonora y Baja California, con una importante población secundaria en Arizona, California y Texas. Pertenece a la amplia familia de apellidos toponímicos vascos — junto a Arriola, Loyola, Echeverría, Elizondo y Gastélum — nombres que identificaban a una familia por la tierra o el caserío que poseía.</p>
+      <p style="margin:0 0 16px;font-size:18px;line-height:1.75;text-align:justify;text-wrap:pretty">No existe un escudo de armas universal de los Gaxiola, a pesar de lo que anuncian los vendedores comerciales de heráldica. Lo que el apellido sí tiene es un registro documental inusualmente profundo — los libros parroquiales del Sinaloa colonial se remontan a la primera década del siglo XVIII — y una larga asociación con familias dedicadas a la ganadería, la agricultura, el derecho, la política, la educación, el deporte y el servicio público.</p>
+    </section>
+    <figure style="margin:32px 0 0;display:flex;flex-direction:column;gap:10px">
+      <div class="plate" style="width:100%;height:380px">
+        <image-slot id="home-family-photo" shape="rect" placeholder="Arrastre aquí una fotografía familiar"></image-slot>
+      </div>
+      <figcaption style="font-size:13px;color:var(--color-neutral-600);font-style:italic;text-align:center"></figcaption>
+    </figure>
+    <section style="margin:56px 0 0;border:1px solid var(--color-divider);border-radius:var(--radius-md);padding:36px 32px;text-align:center">
+      <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--color-accent);margin-bottom:20px">La Migración en Una Línea</div>
+      <div style="display:flex;flex-direction:column;gap:6px;align-items:center">
+        <div style="font-family:var(--font-heading);font-size:24px">País Vasco, norte de España</div>
+        <div style="color:var(--color-neutral-600);font-size:13px;letter-spacing:0.06em"><span style="display:block;color:var(--color-accent);font-size:18px">↓</span>Migración colonial, siglos XVI–XVIII</div>
+        <div style="font-family:var(--font-heading);font-size:24px">Noroeste de México — Sinaloa y Sonora</div>
+        <div style="color:var(--color-neutral-600);font-size:13px;letter-spacing:0.06em"><span style="display:block;color:var(--color-accent);font-size:18px">↓</span>Expansión, siglos XIX–XX</div>
+        <div style="font-family:var(--font-heading);font-size:24px">Estados Unidos — Arizona, California, Texas</div>
+      </div>
+    </section>
+    <section style="margin:56px 0 0">
+      <h2 style="font-size:28px;font-weight:400;margin:0 0 6px;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Explore la Investigación</h2>
+      <div class="gx-grid2" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px">
+        <a href="origins-es.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Sección Uno</span>
+          <span class="card-title" style="font-size:22px">Origen e Historia</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">La etimología vasca, el registro medieval, el cruce colonial a la Nueva España y dónde se encuentra el nombre hoy.</span>
+        </a>
+        <a href="people-es.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Sección Dos</span>
+          <span class="card-title" style="font-size:22px">Portadores Notables</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">Gobernadores, secretarios de gabinete, un medallista olímpico de plata, cantantes, académicos y un abogado de Tucson al centro de un caso célebre.</span>
+        </a>
+        <a href="heraldry-es.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Sección Tres</span>
+          <span class="card-title" style="font-size:22px">Escudo de Armas</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">El blasón que venden los comercios, lo que la tradición heráldica realmente otorgaba y cómo se establecería un derecho legítimo.</span>
+        </a>
+        <a href="records-es.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Sección Cuatro</span>
+          <span class="card-title" style="font-size:22px">Registros y Fuentes</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">Las primeras actas parroquiales desde 1708, variantes ortográficas, afirmaciones a tratar con cautela y la bibliografía completa.</span>
+        </a>
+      </div>
+    </section>
+    <footer style="margin-top:64px;padding-top:24px;border-top:1px solid var(--color-divider);display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:13px;color:var(--color-neutral-600)">
+      <span>El Apellido Gaxiola — una compilación de investigación familiar</span>
+      <span style="font-variant-numeric:tabular-nums">Compilado en agosto de 2026</span>
+    </footer>
+  </main>
+</div>
+</x-dc>
+</body>
+</html>

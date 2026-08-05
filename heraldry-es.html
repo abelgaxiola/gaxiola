@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/styles.css">
+  <script src="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/_ds_bundle.js"></script>
+  <script src="image-slot.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; background: var(--color-bg); }
+    @media (max-width: 680px) {
+      .gx-menu-btn { display: flex !important; }
+      .gx-links { display: none !important; width: 100%; flex-direction: column; align-items: flex-start; gap: 14px !important; padding-top: 12px; border-top: 1px solid var(--color-divider); }
+      #gx-menu-toggle:checked ~ .gx-links { display: flex !important; }
+      main { padding: 0 20px 48px !important; }
+      main h1 { font-size: 34px !important; }
+      .gx-split { grid-template-columns: 1fr !important; }
+      .gx-split .plate { margin: 0 auto; }
+      .table { font-size: 13px; }
+    }
+    a { color: var(--color-accent-700); }
+    a:hover { color: var(--color-accent); }
+  </style>
+</helmet>
+<div style="min-height:100vh" lang="es">
+  <nav class="nav" style="max-width:1040px;margin:0 auto;flex-wrap:wrap;row-gap:10px">
+    <a class="nav-brand" href="index-es.html" style="text-decoration:none;color:inherit;letter-spacing:0.08em">GAXIOLA</a>
+    <input type="checkbox" id="gx-menu-toggle" style="display:none">
+    <label for="gx-menu-toggle" class="gx-menu-btn" style="display:none;align-items:center;cursor:pointer;color:var(--color-text)" aria-label="Menú"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></svg></label>
+    <div class="gx-links" style="display:flex;align-items:center;gap:var(--space-4)">
+    <a href="index-es.html">Inicio</a>
+    <a href="origins-es.html">Origen e Historia</a>
+    <a href="people-es.html">Portadores Notables</a>
+    <a href="heraldry-es.html" aria-current="page">Heráldica</a>
+    <a href="records-es.html">Registros y Fuentes</a>
+    <a href="heraldry.html" lang="en" style="letter-spacing:0.08em;color:var(--color-accent-700);border:1px solid var(--color-divider);border-radius:var(--radius-md);padding:3px 10px;font-size:12px">EN</a>
+    </div>
+  </nav>
+  <main style="max-width:880px;margin:0 auto;padding:0 32px 64px">
+    <header style="padding:56px 0 32px;border-bottom:1px solid var(--color-divider)" data-screen-label="Heráldica portada">
+      <div style="font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:var(--color-accent);margin-bottom:16px">Sección Tres</div>
+      <h1 style="font-size:48px;line-height:1.1;margin:0 0 14px;font-weight:400">Escudo de Armas</h1>
+      <p style="font-style:italic;color:var(--color-neutral-600);max-width:38em;margin:0;font-size:18px;line-height:1.6;text-wrap:pretty">Lo que venden los comercios, lo que la tradición realmente otorgaba y cómo se haría una reclamación legítima.</p>
+    </header>
+    <section style="padding-top:40px">
+      <p style="margin:0 0 14px;font-size:17px;line-height:1.75;text-align:justify;text-wrap:pretty">Una de las ideas erróneas más persistentes en la genealogía es que cada apellido tiene su propio escudo de armas. No es históricamente exacto. En España y el País Vasco, las armas se otorgaban a <em>individuos</em> o a casas nobles específicas — <em>casas solariegas</em> — nunca a todos los que compartían un nombre.</p>
+      <div style="border:1px solid var(--color-accent-300);border-radius:var(--radius-md);padding:20px 24px;margin:24px 0;font-size:16px;line-height:1.7">
+        <strong style="color:var(--color-accent-700)">No existe un escudo de armas Gaxiola universal autenticado.</strong> Ningún escudo Gaxiola aparece en los registros del Cronista Rey de Armas, en los archivos establecidos de linajes nobles vascos ni en fuentes heráldicas académicas. Los diseños comerciales no deben asumirse como propios de su línea a menos que su ascendencia esté documentada hasta un armiger específico.
+      </div>
+    </section>
+    <section style="margin-top:40px">
+      <h2 style="font-size:28px;font-weight:400;margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">El Blasón Que Comúnmente Se Vende</h2>
+      <div class="gx-split" style="display:grid;grid-template-columns:240px 1fr;gap:32px;align-items:start">
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <div class="plate" style="width:240px;height:300px">
+            <image-slot id="heraldry-crest" shape="rect" placeholder="Arrastre aquí una imagen del escudo"></image-slot>
+          </div>
+          <div style="font-size:12px;color:var(--color-neutral-600);font-style:italic;text-align:center"></div>
+        </div>
+        <div>
+          <p style="margin:0 0 14px;font-size:17px;line-height:1.75;text-align:justify;text-wrap:pretty">Los vendedores españoles de heráldica sí ofrecen diseños Gaxiola, y la mayoría sigue un blasón recurrente, descrito en términos de nobleza vasca y condición de <em>hidalgo</em>:</p>
+          <table class="table">
+            <tbody>
+              <tr><td style="width:32%;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-neutral-600)">Campo</td><td style="line-height:1.6">Gules (rojo) — en la convención heráldica, fortaleza, valor militar y sacrificio</td></tr>
+              <tr><td style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-neutral-600)">Figura principal</td><td style="line-height:1.6">Un castillo de oro, flanqueado por cuatro lobos negros en movimiento (sable, pasantes) — leídos como antigua nobleza vasca, defensa y lealtad</td></tr>
+              <tr><td style="font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--color-neutral-600)">Jefe</td><td style="line-height:1.6">Una banda superior de plata (argén) cargada con una cruz central — sinceridad y herencia de cristiano viejo / hidalgo</td></tr>
+            </tbody>
+          </table>
+          <p style="margin:14px 0 0;font-size:17px;line-height:1.75;text-align:justify;text-wrap:pretty">Algunos vendedores sustituyen el castillo por un árbol sobre campo de oro. Ninguno aporta documentación de una concesión histórica, y los diseños varían entre vendedores — señal de que son reconstrucciones y no registros.</p>
+        </div>
+      </div>
+    </section>
+    <section style="margin-top:56px">
+      <h2 style="font-size:28px;font-weight:400;margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Cómo Establecer una Reclamación Legítima</h2>
+      <p style="margin:0 0 18px;font-size:17px;line-height:1.75;text-align:justify;text-wrap:pretty">Una reclamación genuina de armas requeriría tres cosas, en orden:</p>
+      <ol style="margin:0;padding-left:24px;font-size:17px;line-height:1.75">
+        <li style="margin-bottom:12px">Rastrear a un antepasado documentado específico en los registros de nobleza o hidalguía españolas.</li>
+        <li style="margin-bottom:12px">Encontrar evidencia de una concesión formal de armas a ese individuo.</li>
+        <li style="margin-bottom:0">Confirmar la concesión en los registros heráldicos gubernamentales españoles.</li>
+      </ol>
+    </section>
+    <footer style="margin-top:64px;padding-top:24px;border-top:1px solid var(--color-divider);display:flex;justify-content:space-between;gap:16px;font-size:14px">
+      <a href="people-es.html">← Portadores Notables</a>
+      <a href="records-es.html">Registros y Fuentes →</a>
+    </footer>
+  </main>
+</div>
+</x-dc>
+</body>
+</html>
