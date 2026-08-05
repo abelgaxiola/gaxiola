@@ -1,452 +1,116 @@
 <!DOCTYPE html>
-<!--[if IE 9 ]><html class="ie9"><![endif]-->
-
+<html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,
-        maximum-scale=1.0" />
-    <meta name="format-detection" content="telephone=no">
-    <meta charset="UTF-8">
-
-    <meta name="description" content="Gaxiola">
-    <meta name="keywords" content="gaxiola familiagaxiola gaxiolafamily
-        gaxiola.info">
-
-    <title>Gaxiola</title>
-
-    <link href="vendors/bower_components/animate.css/animate.min.css"
-        rel="stylesheet">
-    <link
-        href="vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css"
-        rel="stylesheet">
-    <link
-        href="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css"
-        rel="stylesheet">
-
-    <link href="css/app.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
 </head>
-
 <body>
-    <header id="header">
-        <ul class="header-inner">
-            <!-- Logo -->
-            <li class="logo">
-                <a href="">
-                    <img src="img/logo.png" alt="">
-                </a>
-                <div id="menu-trigger">
-                    <i class="zmdi zmdi-menu"></i>
-                </div>
-            </li>
-
-            <!-- Events -->
-            <li class="dropdown hidden-xs">
-                <a href="" data-toggle="dropdown" class="hi-events">
-                    <i class="zmdi zmdi-calendar"></i>
-                </a>
-                <div class="dropdown-menu hi-dropdown">
-                    <div class="dropdown-header bg-blue m-b-15">
-                        PROXIMAMENTE
-                        <ul class="actions a-alt">
-                            <li>
-                                <a class="" href=""></a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="list-group lg-alt">
-                        <div class="list-group-item media" href="">
-                            <div class="pull-left">
-                                <div class="event-time bg-green">
-                                    <h2>Mayo</h2>
-                                    <small>25</small>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <div class="list-group-item-heading">Tour de
-                                    Kino</div>
-                                <small class="list-group-item-text c-gray">Paseo
-                                    en bicicleta de Hermosillo a
-                                    Kino</small>
-                                <small class="list-group-item-text c-gray f-11">Sabado
-                                    25 de Mayo</small>
-                            </div>
-                        </div>
-
-                        <div class="list-group-item media" href="">
-                            <div class="pull-left">
-                                <div class="event-time bg-orange">
-                                    <h2>Mayo</h2>
-                                    <small>25</small>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <div class="list-group-item-heading">Gaxiolada</div>
-                                <small class="list-group-item-text c-gray">Reunión
-                                    familiar en Bahia de Kino
-                                    Sonora.</small>
-                                <small class="list-group-item-text c-gray f-11">Sabado
-                                    25 de Mayo</small>
-                            </div>
-                        </div>
-
-                        <div class="list-group-item media">
-                            <div class="pull-left">
-                                <div class="event-time bg-blue">
-                                    <h2>Mayo</h2>
-                                    <small>26</small>
-                                </div>
-                            </div>
-                            <div class="media-body">
-                                <div class="list-group-item-heading">Gaxiolitas</div>
-                                <small class="list-group-item-text c-gray">Eventos
-                                    familiares para los niños y
-                                    niñas.</small>
-                                <small class="list-group-item-text c-gray f-11">Domingo
-                                    26 de Mayo</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <h2 class="t-body text-center">FAMILIA GAXIOLA</h2>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/styles.css">
+  <script src="_ds/classical-dfda55ae-e7d3-4959-b9b0-61ded2fc1526/_ds_bundle.js"></script>
+  <script src="image-slot.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin: 0; background: var(--color-bg); }
+    @media (max-width: 680px) {
+      main { padding: 0 20px 48px !important; }
+      main h1 { font-size: 40px !important; }
+      .gx-grid2, .gx-split { grid-template-columns: 1fr !important; }
+      .gx-stats { grid-template-columns: 1fr 1fr !important; }
+      .gx-stats > div { border-right: 0 !important; }
+      .gx-stats > div:nth-child(-n+2) { border-bottom: 1px solid var(--color-divider); }
+      figure .plate { height: 240px !important; }
+    }
+    a { color: var(--color-accent-700); }
+    a:hover { color: var(--color-accent); }
+  </style>
+</helmet>
+<div style="min-height:100vh">
+  <nav class="nav" style="max-width:1040px;margin:0 auto;flex-wrap:wrap;row-gap:10px">
+    <a class="nav-brand" href="index.html" style="text-decoration:none;color:inherit;letter-spacing:0.08em">GAXIOLA</a>
+    <a href="index.html" aria-current="page">Home</a>
+    <a href="origins.html">Origins &amp; History</a>
+    <a href="people.html">Notable Bearers</a>
+    <a href="heraldry.html">Heraldry</a>
+    <a href="records.html">Records &amp; Sources</a>
+  </nav>
+  <main style="max-width:880px;margin:0 auto;padding:0 32px 64px">
+    <header style="text-align:center;padding:72px 0 40px;border-bottom:1px solid var(--color-divider)" data-screen-label="Home hero">
+      <div style="font-size:12px;letter-spacing:0.22em;text-transform:uppercase;color:var(--color-accent);margin-bottom:20px;font-variant-numeric:tabular-nums">Family History · Research Compilation</div>
+      <h1 style="font-size:64px;line-height:1.05;margin:0 0 18px;font-weight:400">The Gaxiola Surname</h1>
+      <p style="font-style:italic;color:var(--color-neutral-600);max-width:34em;margin:0 auto;font-size:19px;line-height:1.6;text-wrap:pretty">A Basque name from northern Spain that took root in Sinaloa and Sonora, and travelled north again into the American Southwest.</p>
     </header>
-
-    <aside id="sidebar">
-        <!--| MAIN MENU |-->
-        <ul class="side-menu">
-            <li class="active">
-                <a href="index.html">
-                    <i class="zmdi zmdi-home"></i>
-                    <span>Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="reuniones.html">
-                    <i class="zmdi zmdi-accounts"></i>
-                    <span>Reuniones
-                        <span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="memoriam.html">
-                            <i class="zmdi zmdi-star"></i>
-                            <span>En Memoriam</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="calendario.html">
-                            <i class="zmdi zmdi-calendar"></i>
-                            <span>Calendario</span>
-                        </a>
-                    </li>
-                    <li class="sm-sub">
-                        <a href="">
-                            <i class="zmdi zmdi-image"></i>
-                            <span>Fotos</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="fotos.html">Muestra</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://www.flickr.com/photos/familiagaxiola/sets/"
-                                    target="blank">En Flickr</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sm-sub sms-bottom">
-                        <a href="">
-                            <i class="zmdi zmdi-case"></i>
-                            <span>Negocios</span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="./handyman/index.html" target="blank">Reparaciones</a>
-                            </li>
-                            <li>
-                                <a href="http://ledson.mx/" target="blank">Luces
-                                    LED</a>
-                            </li>
-                            <li>
-                                <a
-                                    href="http://www.plasticsurgerymx.com/cirujano-plastico-tijuana/acerca.html"
-                                    target="blank">Cirujia
-                                    Plastica
-                                </a>
-                            </li>
-                            <li>
-                                <a href="http://www.criminallawaz.com/"
-                                    target="blank">Abogado</a>
-                            </li>
-                            <li>
-                                <a href="http://www.tensignals.com/"
-                                    target="blank">Sitios Web</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="./maclovio/index.html" target="blank">
-                            <i class="zmdi zmdi-book"></i>
-                            <span>Mi Tio Maclovio</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://facebook.com/familiagaxiola"
-                            target="blank">
-                            <i class="zmdi zmdi-facebook-box"></i>
-                            <span>Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/familiagaxiola"
-                            target="blank">
-                            <i class="zmdi zmdi-twitter-box"></i>
-                            <span>Twitter</span>
-                        </a>
-                    </li>
-                </ul>
-            </aside>
-            <section id="content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 section1">
-                            <div class="tile">
-                                <div class="t-header th-alt bg-teal">
-                                    <div class="th-title">Gaxioladas</div>
-                                </div>
-
-                                <div class="t-body tb-padding">
-                                    <p>
-                                        La familia Gaxiola ha estado teniendo
-                                        reuniones familiares por lo menos
-                                        durante las últimas tres generaciones.
-                                        Hay reuniones
-                                        en Sinaloa, en California, en Sonora,
-                                        etc. Cada reunión es distinta pero la
-                                        familia es la
-                                        misma pues todos miembros de una rama de
-                                        esta gran familia Gaxiola. La mayoría de
-                                        estas reuniones
-                                        familiares son de un día (quizás dos).
-                                        Las reuniones de Hermosillo-Kino son
-                                        únicas en el
-                                        sentido de que abarcan un fin de semana
-                                        (de viernes a domingo). Se dan comienzo
-                                        en Hermosillo
-                                        Sonora el viernes por la tarde y el
-                                        sábado por la mañana continúan con un
-                                        evento ciclista
-                                        conocido cariñosamente como "El Tour de
-                                        Kino" que comienza a la salida de
-                                        Hermosillo y termina
-                                        a la entrada de Kino viejo. El domingo
-                                        es día de descanso y eventos familiares.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="tile">
-                                <div class="t-header th-alt bg-purple m-b-15">
-                                    <div class="th-title">En Memoriam</div>
-                                </div>
-                                <div class="t-body">
-                                    <div class="list-group lg-alt">
-                                        <a href="" class="list-group-item
-                                            media">
-                                            <div class="pull-left">
-                                                <img class="img-circle
-                                                    pull-left"
-                                                    src="img/profile-pics/1.jpg"
-                                                    alt="" width="40"
-                                                    height="40">
-                                            </div>
-                                            <div class="media-body">
-                                                <div
-                                                    class="list-group-item-heading">David
-                                                    Gaxiola Campos</div>
-                                                <small
-                                                    class="list-group-item-text">Hijo
-                                                    de Miguel Gaxiola Lopez</small>
-                                                <small
-                                                    class="list-group-item-text">RIP</small>
-                                            </div>
-                                        </a>
-                                        <a href="" class="list-group-item
-                                            media">
-                                            <div class="pull-left">
-                                                <img class="img-circle
-                                                    pull-left"
-                                                    src="img/profile-pics/5.jpg"
-                                                    alt="" width="40"
-                                                    height="40">
-                                            </div>
-                                            <div class="media-body">
-                                                <div
-                                                    class="list-group-item-heading">Miguel
-                                                    Gaxiola Corral</div>
-                                                <small
-                                                    class="list-group-item-text">Hijo
-                                                    de Miguel Gaxio la Lopez</small>
-                                                <small
-                                                    class="list-group-item-text">RIP</small>
-                                            </div>
-                                        </a>
-                                        <a href="" class="list-group-item
-                                            media">
-                                            <div class="pull-left">
-                                                <img class="img-circle
-                                                    pull-left"
-                                                    src="img/profile-pics/3.jpg"
-                                                    alt="" width="40"
-                                                    height="40">
-                                            </div>
-                                            <div class="media-body">
-                                                <div
-                                                    class="list-group-item-heading">Fernando
-                                                    Gaxiola Corral</div>
-                                                <small
-                                                    class="list-group-item-text">Hijo
-                                                    de Miguel Gaxiola Lopez</small>
-                                                <small
-                                                    class="list-group-item-text">RIP</small>
-                                            </div>
-                                        </a>
-                                        <a href="" class="list-group-item
-                                            media">
-                                            <div class="pull-left">
-                                                <img class="img-circle
-                                                    pull-left"
-                                                    src="img/profile-pics/4.jpg"
-                                                    alt="" width="40"
-                                                    height="40">
-                                            </div>
-                                            <div class="media-body">
-                                                <div
-                                                    class="list-group-item-heading">Jesus
-                                                    Miguel Encinas Gaxiola</div>
-                                                <small
-                                                    class="list-group-item-text">Hijo
-                                                    de Jesus Encinas</small>
-                                                <small
-                                                    class="list-group-item-text">RIP</small>
-                                            </div>
-                                        </a>
-                                        <a href="" class="list-group-item
-                                            media">
-                                            <div class="pull-left">
-                                                <img class="img-circle
-                                                    pull-left"
-                                                    src="img/profile-pics/2.jpg"
-                                                    alt="" width="40"
-                                                    height="40">
-                                            </div>
-                                            <div class="media-body">
-                                                <div
-                                                    class="list-group-item-heading">Eloisa
-                                                    Gaxiola Corral</div>
-                                                <small
-                                                    class="list-group-item-text">Hija
-                                                    de Miguel Gaxiola Lopez</small>
-                                                <small
-                                                    class="list-group-item-text">RIP</small>
-                                            </div>
-                                        </a>
-                                        <a class="view-more"
-                                            href="memoriam.html">Ver Todos</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6 section2">
-                            <div class="tile" id="tweets">
-                                <div class="t-header th-alt bg-blue">
-                                    <div class="th-title">En Twitter</div>
-                                </div>
-                                <div class="text-center t-body tb-padding">
-                                    <div>
-                                        <a class="twitter-timeline"
-                                            data-height="690" data-theme="light"
-                                            href="https://twitter.com/FamiliaGaxiola?ref_src=twsrc%5Etfw">Tweets
-                                            by FamiliaGaxiola</a>
-                                        <script async
-                                            src="https://platform.twitter.com/widgets.js"
-                                            charset="utf-8"></script>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <footer id="footer">
-                Copyright © 2016 Gaxiola.info
-            </footer>
-
-            <!-- Older IE Warning Message -->
-            <!--[if lt IE 9]>
-            <div class="ie-warning">
-                <h1 class="c-white">Warning!!</h1>
-                <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
-                <div class="iew-container">
-                    <ul class="iew-download">
-                        <li>
-                            <a href="http://www.google.com/chrome/">
-                                <img src="img/browsers/chrome.png" alt="">
-                                <div>Chrome</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.mozilla.org/en-US/firefox/new/">
-                                <img src="img/browsers/firefox.png" alt="">
-                                <div>Firefox</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.opera.com">
-                                <img src="img/browsers/opera.png" alt="">
-                                <div>Opera</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.apple.com/safari/">
-                                <img src="img/browsers/safari.png" alt="">
-                                <div>Safari</div>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
-                                <img src="img/browsers/ie.png" alt="">
-                                <div>IE (New)</div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <p>Sorry for the inconvenience!</p>
-            </div>
-        <![endif]-->
-            <!-- Javascript Libraries -->
-            <script src="vendors/bower_components/jquery/dist/jquery.min.js"></script>
-            <script
-                src="vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-            <script
-                src="vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-            <!-- Placeholder for IE9 -->
-            <!--[if IE 9 ]>
-            <script src="vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
-        <![endif]-->
-            <script src="js/functions.js"></script>
-        </body>
-        <!--Making sections the same height-->
-        <script>
-    $(document).ready(function () {
-        var sectionHeight = $('.section1').height();
-        $('.section2').height(sectionHeight - 30);
-        $('#tweets').height(sectionHeight - 30);
-    });
-</script>
-
-    </html>
+    <section class="gx-stats" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-bottom:1px solid var(--color-divider)">
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~22,000</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">bearers worldwide</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~19,700</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">in Mexico</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center;border-right:1px solid var(--color-divider)">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">~2,700</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">in the United States</div>
+      </div>
+      <div style="padding:28px 20px;text-align:center">
+        <div style="font-family:var(--font-heading);font-size:38px;font-variant-numeric:tabular-nums;line-height:1">93,000+</div>
+        <div style="font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--color-neutral-600);margin-top:8px">indexed records</div>
+      </div>
+    </section>
+    <section style="padding:48px 0 8px">
+      <p style="margin:0 0 16px;font-size:18px;line-height:1.75;text-align:justify;text-wrap:pretty"><span style="float:left;font-family:var(--font-heading);font-size:64px;line-height:0.8;padding:8px 12px 0 0;color:var(--color-accent)">G</span>axiola is a rare surname of Basque origin that became firmly established in northwestern Mexico during the Spanish colonial period. Today the overwhelming majority of people carrying it live in Sinaloa, Sonora, and Baja California, with a substantial secondary population in Arizona, California, and Texas. It belongs to the broad family of Basque toponymic surnames — alongside Arriola, Loyola, Echeverría, Elizondo, and Gastélum — names that identified a family by the land or farmstead it held.</p>
+      <p style="margin:0 0 16px;font-size:18px;line-height:1.75;text-align:justify;text-wrap:pretty">There is no universal Gaxiola coat of arms, despite what commercial heraldry vendors advertise. What the surname does have is an unusually deep documentary record — parish registers in colonial Sinaloa reach back to the first decade of the 1700s — and a long association with families in ranching, agriculture, law, politics, education, sport, and public service.</p>
+    </section>
+    <figure style="margin:32px 0 0;display:flex;flex-direction:column;gap:10px">
+      <div class="plate" style="width:100%;height:380px">
+        <image-slot id="home-family-photo" shape="rect" placeholder="Drop a family photograph here"></image-slot>
+      </div>
+      <figcaption style="font-size:13px;color:var(--color-neutral-600);font-style:italic;text-align:center">A place for a photograph of your own Gaxiola line.</figcaption>
+    </figure>
+    <section style="margin:56px 0 0;border:1px solid var(--color-divider);border-radius:var(--radius-md);padding:36px 32px;text-align:center">
+      <div style="font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:var(--color-accent);margin-bottom:20px">The Migration in One Line</div>
+      <div style="display:flex;flex-direction:column;gap:6px;align-items:center">
+        <div style="font-family:var(--font-heading);font-size:24px">Basque Country, northern Spain</div>
+        <div style="color:var(--color-neutral-600);font-size:13px;letter-spacing:0.06em"><span style="display:block;color:var(--color-accent);font-size:18px">↓</span>16th–18th century colonial migration</div>
+        <div style="font-family:var(--font-heading);font-size:24px">Northwestern Mexico — Sinaloa &amp; Sonora</div>
+        <div style="color:var(--color-neutral-600);font-size:13px;letter-spacing:0.06em"><span style="display:block;color:var(--color-accent);font-size:18px">↓</span>19th–20th century expansion</div>
+        <div style="font-family:var(--font-heading);font-size:24px">United States — Arizona, California, Texas</div>
+      </div>
+    </section>
+    <section style="margin:56px 0 0">
+      <h2 style="font-size:28px;font-weight:400;margin:0 0 6px;padding-bottom:10px;border-bottom:1px solid var(--color-divider)">Explore the Research</h2>
+      <div class="gx-grid2" style="display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:24px">
+        <a href="origins.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Section One</span>
+          <span class="card-title" style="font-size:22px">Origins &amp; History</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">The Basque etymology, the medieval record, the colonial crossing to New Spain, and where the name stands today.</span>
+        </a>
+        <a href="people.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Section Two</span>
+          <span class="card-title" style="font-size:22px">Notable Bearers</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">Governors, cabinet secretaries, an Olympic silver medallist, singers, scholars, and a Tucson attorney at the centre of a famous case.</span>
+        </a>
+        <a href="heraldry.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Section Three</span>
+          <span class="card-title" style="font-size:22px">Coat of Arms</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">The blazon vendors sell, what the heraldic tradition actually granted, and how a legitimate claim would be established.</span>
+        </a>
+        <a href="records.html" class="card" style="text-decoration:none;color:inherit" style-hover="border-color:var(--color-accent)">
+          <span class="card-kicker">Section Four</span>
+          <span class="card-title" style="font-size:22px">Records &amp; Sources</span>
+          <span class="card-body" style="font-size:14px;line-height:1.6">The earliest parish entries from 1708, spelling variants, claims to treat with caution, and the full bibliography.</span>
+        </a>
+      </div>
+    </section>
+    <footer style="margin-top:64px;padding-top:24px;border-top:1px solid var(--color-divider);display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:13px;color:var(--color-neutral-600)">
+      <span>The Gaxiola Surname — a family research compilation</span>
+      <span style="font-variant-numeric:tabular-nums">Compiled August 2026</span>
+    </footer>
+  </main>
+</div>
+</x-dc>
+</body>
+</html>
